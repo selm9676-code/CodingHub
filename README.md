@@ -50,12 +50,11 @@ This Phase 1 version is focused on a clean, modern, beginner-friendly learning e
 
 1. Install dependencies
 
-```txt
-npm install
-```end
+   **npm install**
+
 2. Start the development server
 
-**npm run dev**
+   **npm run dev**
 
 3. Open the app
 
