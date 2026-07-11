@@ -1,5 +1,5 @@
-import { languages } from "@/data/languages";
-import type { LanguageMeta, Lesson, TierKey } from "@/types/curriculum";
+import { languages } from "../data/languages";
+import type { LanguageMeta, Lesson, TierKey } from "../types/curriculum";
 
 const lessonMap: Record<string, Lesson[]> = {
   python: [
