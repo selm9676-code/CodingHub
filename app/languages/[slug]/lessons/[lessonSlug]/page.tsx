@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { CodeBlock } from "@/components/code-block";
-import { getLanguageBySlug, getLessonBySlug, getNextLesson } from "@/lib/curriculum";
+import { CodeBlock } from "../../../../../components/code-block";
+import { getLanguageBySlug, getLessonBySlug, getNextLesson } from "../../../../../lib/curriculum";
 
 interface LessonPageProps {
   params: {
