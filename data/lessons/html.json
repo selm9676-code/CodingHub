@@ -1,1 +1,83 @@
+[
+  {
+    "slug": "html-page-structure",
+    "title": "HTML page structure",
+    "tier": "easy",
+    "summary": "Learn the basic structure that holds a normal HTML page together.",
+    "goal": "By the end of this lesson, you will be able to recognize and write a simple HTML page structure.",
+    "explanation": [
+      "HTML uses tags to describe the parts of a webpage. Tags tell the browser what each piece of content is.",
+      "A basic HTML page usually has a doctype, an html element, a head section, and a body section.",
+      "The head stores information about the page, while the body stores the content the user sees."
+    ],
+    "codeLanguage": "html",
+    "code": "<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <title>Coding Hub</title>
+  </head>
+  <body>
+    <h1>Welcome to Coding Hub</h1>
+    <p>This is a simple HTML page.</p>
+  </body>
+</html>",
+    "codeNotes": [
+      "<!DOCTYPE html> tells the browser to use modern HTML rules.",
+      "<html> wraps the whole page.",
+      "<head> contains information about the page, such as the title.",
+      "<body> contains the content users actually see, like headings and paragraphs."
+    ],
+    "commonMistakes": [
+      "Putting visible content inside the head instead of the body.",
+      "Forgetting a closing tag like </p> or </body>.",
+      "Misspelling common tags such as <title> or <meta>."
+    ],
+    "exercise": {
+      "title": "Build your first page shell",
+      "instructions": "Create a page with a title in the head and a heading plus one paragraph in the body."
+    },
+    "order": 1
+  },
+  {
+    "slug": "html-links-and-images",
+    "title": "HTML links and images",
+    "tier": "easy",
+    "summary": "Learn how to add clickable links and images to a webpage.",
+    "goal": "By the end of this lesson, you will be able to add a basic link and image in HTML.",
+    "explanation": [
+      "Links help users move from one page to another. In HTML, links use the <a> tag.",
+      "Images display pictures on a page. In HTML, images use the <img> tag.",
+      "Attributes give extra information to a tag. For example, href tells a link where to go, while src tells an image where the file lives."
+    ],
+    "codeLanguage": "html",
+    "code": "<h1>Learning Resources</h1>
 
+<!-- This link takes the user to another website -->
+<a href='https://developer.mozilla.org' target='_blank'>Visit MDN Web Docs</a>
+
+<!-- This image shows a picture on the page -->
+<img
+  src='https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80'
+  alt='A laptop on a desk'
+  width='300'
+/>",
+    "codeNotes": [
+      "The <a> tag creates a clickable link.",
+      "href is the destination of the link.",
+      "target='_blank' opens the link in a new tab.",
+      "The <img> tag displays an image, and alt describes it for accessibility and screen readers."
+    ],
+    "commonMistakes": [
+      "Forgetting the href attribute in a link.",
+      "Leaving out the alt text on an image.",
+      "Using an image source that does not exist or is typed incorrectly."
+    ],
+    "exercise": {
+      "title": "Create a resource section",
+      "instructions": "Add one heading, one link to a learning site, and one image with meaningful alt text."
+    },
+    "order": 2
+  }
+]
