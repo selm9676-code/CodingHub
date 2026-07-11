@@ -1,0 +1,82 @@
+
+[
+  {
+    "slug": "javascript-variables-and-console",
+    "title": "JavaScript variables and console.log()",
+    "tier": "easy",
+    "summary": "Learn how to save values in JavaScript and display them with console.log().",
+    "goal": "By the end of this lesson, you will be able to create simple variables and print their values in JavaScript.",
+    "explanation": [
+      "In JavaScript, a variable stores data so you can use it later. This helps your code stay organized and reusable.",
+      "console.log() is a simple tool that prints information to the browser console. Developers often use it to test what their code is doing.",
+      "When you store values in variables, you can change them in one place instead of rewriting them everywhere."
+    ],
+    "codeLanguage": "javascript",
+    "code": "// Save a learner name in a variable
+const learnerName = 'Rafi';
+
+// Save a number in another variable
+const lessonCount = 4;
+
+// Show simple text in the console
+console.log('Welcome to Coding Hub!');
+
+// Show the values stored in the variables
+console.log(learnerName);
+console.log(lessonCount);
+
+// Show a longer message using multiple values
+console.log(learnerName, 'has finished', lessonCount, 'JavaScript lessons.');",
+    "codeNotes": [
+      "const creates a variable whose value should not be reassigned later.",
+      "console.log() helps you inspect values while learning or debugging.",
+      "The final console.log() combines text and variable values into one readable message."
+    ],
+    "commonMistakes": [
+      "Forgetting semicolons if your project style expects them consistently.",
+      "Misspelling console.log().",
+      "Trying to use a variable name that was never declared."
+    ],
+    "exercise": {
+      "title": "Introduce a learner",
+      "instructions": "Create variables for a learner name and a favorite topic. Then use console.log() to print a sentence that introduces the learner and topic."
+    },
+    "order": 1
+  },
+  {
+    "slug": "javascript-if-statements",
+    "title": "JavaScript if statements",
+    "tier": "easy",
+    "summary": "Learn how JavaScript checks a condition before running some code.",
+    "goal": "By the end of this lesson, you will be able to write a simple if statement in JavaScript.",
+    "explanation": [
+      "An if statement gives your program a choice. It checks whether a condition is true.",
+      "If the condition is true, the code inside the curly braces runs. If it is false, that block is skipped.",
+      "This is one of the first steps toward making interactive programs that react to user actions or data."
+    ],
+    "codeLanguage": "javascript",
+    "code": "const score = 92;
+
+// Check whether the learner passed
+if (score >= 70) {
+  console.log('You passed the lesson!');
+}
+
+console.log('The program has finished.');",
+    "codeNotes": [
+      "score >= 70 returns true because 92 is greater than 70.",
+      "Because the condition is true, the message inside the curly braces runs.",
+      "The last console.log() runs whether the condition is true or false."
+    ],
+    "commonMistakes": [
+      "Forgetting the curly braces around the code block.",
+      "Using = instead of === or another comparison operator.",
+      "Mixing up greater than > and greater than or equal to >=."
+    ],
+    "exercise": {
+      "title": "Check lesson progress",
+      "instructions": "Create a variable called completedLessons. If the value is 3 or more, print a message that says the learner can move to the next lesson."
+    },
+    "order": 2
+  }
+]
