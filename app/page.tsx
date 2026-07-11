@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { LanguageWheel } from "@/components/language-wheel";
-import { getLanguages, tierMeta } from "@/lib/curriculum";
+import { LanguageWheel } from "../components/language-wheel";
+import { getLanguages, tierMeta } from "../lib/curriculum";
 
 export default function HomePage() {
   const languages = getLanguages();
