@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./global.css";
-import { Header } from "@/components/header";
+import { Header } from "../components/header";
 
 export const metadata: Metadata = {
   title: "Coding Hub",
