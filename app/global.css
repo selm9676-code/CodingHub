@@ -1,1 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #f8fafc;
+  background:
+    radial-gradient(circle at top, rgba(56, 189, 248, 0.14), transparent 30%),
+    linear-gradient(180deg, #020617 0%, #06101d 52%, #020617 100%);
+}
+
+::selection {
+  background: #38bdf8;
+  color: #020617;
+}
+
+.grid-fade {
+  background-image:
+    linear-gradient(rgba(56, 189, 248, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(56, 189, 248, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
