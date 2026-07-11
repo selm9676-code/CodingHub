@@ -15,13 +15,13 @@ const lessonMap: Record<string, Lesson[]> = {
         "Using variables makes your programs easier to read and update."
       ],
       codeLanguage: "python",
-      code: "student_name = 'Alya'
+      code: `student_name = 'Alya'
 completed_lessons = 3
 
 print('Welcome to Coding Hub!')
 print(student_name)
 print(completed_lessons)
-print(student_name, 'has finished', completed_lessons, 'lessons.')",
+print(student_name, 'has finished', completed_lessons, 'lessons.')`,
       codeNotes: [
         "student_name stores text.",
         "completed_lessons stores a number.",
@@ -52,13 +52,13 @@ print(student_name, 'has finished', completed_lessons, 'lessons.')",
         "This helps beginners inspect what their code is doing."
       ],
       codeLanguage: "javascript",
-      code: "const learnerName = 'Rafi';
+      code: `const learnerName = 'Rafi';
 const lessonCount = 4;
 
 console.log('Welcome to Coding Hub!');
 console.log(learnerName);
 console.log(lessonCount);
-console.log(learnerName, 'has finished', lessonCount, 'JavaScript lessons.');",
+console.log(learnerName, 'has finished', lessonCount, 'JavaScript lessons.');`,
       codeNotes: [
         "const creates a variable.",
         "console.log() prints values.",
@@ -89,7 +89,7 @@ console.log(learnerName, 'has finished', lessonCount, 'JavaScript lessons.');",
         "The body contains the visible content."
       ],
       codeLanguage: "html",
-      code: "<!DOCTYPE html>
+      code: `<!DOCTYPE html>
 <html lang='en'>
   <head>
     <title>Coding Hub</title>
@@ -98,7 +98,7 @@ console.log(learnerName, 'has finished', lessonCount, 'JavaScript lessons.');",
     <h1>Welcome to Coding Hub</h1>
     <p>This is a simple HTML page.</p>
   </body>
-</html>",
+</html>`,
       codeNotes: [
         "DOCTYPE tells the browser to use modern HTML.",
         "head stores page info like the title.",
@@ -129,14 +129,14 @@ console.log(learnerName, 'has finished', lessonCount, 'JavaScript lessons.');",
         "Properties like color change appearance."
       ],
       codeLanguage: "css",
-      code: "h1 {
+      code: `h1 {
   color: #38bdf8;
 }
 
 p {
   color: #cbd5e1;
   background-color: #0f172a;
-}",
+}`,
       codeNotes: [
         "h1 and p are selectors.",
         "color changes text color.",
@@ -167,11 +167,11 @@ p {
         "System.out.println() prints text to the console."
       ],
       codeLanguage: "java",
-      code: "public class Main {
+      code: `public class Main {
   public static void main(String[] args) {
-    System.out.println(\"Welcome to Coding Hub!\");
+    System.out.println("Welcome to Coding Hub!");
   }
-}",
+}`,
       codeNotes: [
         "Main is the class name.",
         "main is the starting method.",
@@ -202,11 +202,11 @@ p {
         "let creates a variable."
       ],
       codeLanguage: "rust",
-      code: "fn main() {
-    println!(\"Welcome to Coding Hub!\");
-    let learner_name = \"Sora\";
-    println!(\"{} is learning Rust.\", learner_name);
-}",
+      code: `fn main() {
+    println!("Welcome to Coding Hub!");
+    let learner_name = "Sora";
+    println!("{} is learning Rust.", learner_name);
+}`,
       codeNotes: [
         "fn main() is the entry point.",
         "println! prints text.",
