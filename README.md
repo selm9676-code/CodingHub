@@ -83,7 +83,7 @@ coding-hub/
 ├─ package.json
 ├─ postcss.config.js
 ├─ tailwind.config.ts
-└─ tsconfig.json
+└─ tsconfig.json’’’
 
 Getting Started
 1. Install dependencies
