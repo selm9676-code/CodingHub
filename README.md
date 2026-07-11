@@ -52,7 +52,7 @@ This Phase 1 version is focused on a clean, modern, beginner-friendly learning e
 
 ```txt
 npm install
-```txt
+```end
 2. Start the development server
 
 **npm run dev**
