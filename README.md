@@ -46,46 +46,8 @@ This Phase 1 version is focused on a clean, modern, beginner-friendly learning e
 - Code examples with helpful comments
 - Reusable JSON lesson structure for future scaling
 
-## Project Structure
-
-```txt
-coding-hub/
-├─ app/
-│  ├─ globals.css
-│  ├─ layout.tsx
-│  ├─ page.tsx
-│  └─ languages/
-│     └─ [slug]/
-│        ├─ page.tsx
-│        └─ lessons/
-│           └─ [lessonSlug]/
-│              └─ page.tsx
-├─ components/
-│  ├─ code-block.tsx
-│  ├─ header.tsx
-│  ├─ language-wheel.tsx
-│  └─ tier-section.tsx
-├─ data/
-│  ├─ languages.ts
-│  └─ lessons/
-│     ├─ python.json
-│     ├─ javascript.json
-│     ├─ html.json
-│     ├─ css.json
-│     ├─ java.json
-│     └─ rust.json
-├─ lib/
-│  └─ curriculum.ts
-├─ types/
-│  └─ curriculum.ts
-├─ next.config.mjs
-├─ next-env.d.ts
-├─ package.json
-├─ postcss.config.js
-├─ tailwind.config.ts
-└─ tsconfig.json
-
 ## Getting Started
+
 1. Install dependencies
 npm install
 2. Start the development server
@@ -146,4 +108,42 @@ deployment setup
 more languages beyond the original 6
 Goal of Coding Hub
 The goal of Coding Hub is to create one free, organized place where beginners can learn many coding languages with clear explanations and helpful, commented examples.
-## License
+
+## Project Structure
+
+```txt
+coding-hub/
+├─ app/
+│  ├─ globals.css
+│  ├─ layout.tsx
+│  ├─ page.tsx
+│  └─ languages/
+│     └─ [slug]/
+│        ├─ page.tsx
+│        └─ lessons/
+│           └─ [lessonSlug]/
+│              └─ page.tsx
+├─ components/
+│  ├─ code-block.tsx
+│  ├─ header.tsx
+│  ├─ language-wheel.tsx
+│  └─ tier-section.tsx
+├─ data/
+│  ├─ languages.ts
+│  └─ lessons/
+│     ├─ python.json
+│     ├─ javascript.json
+│     ├─ html.json
+│     ├─ css.json
+│     ├─ java.json
+│     └─ rust.json
+├─ lib/
+│  └─ curriculum.ts
+├─ types/
+│  └─ curriculum.ts
+├─ next.config.mjs
+├─ next-env.d.ts
+├─ package.json
+├─ postcss.config.js
+├─ tailwind.config.ts
+└─ tsconfig.json
