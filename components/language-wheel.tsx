@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { LanguageMeta } from "@/types/curriculum";
+import type { LanguageMeta } from "../types/curriculum";
 
 interface LanguageWheelProps {
   languages: LanguageMeta[];
