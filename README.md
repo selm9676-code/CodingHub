@@ -49,30 +49,36 @@ This Phase 1 version is focused on a clean, modern, beginner-friendly learning e
 ## Getting Started
 
 1. Install dependencies
-npm install
-2. Start the development server
-npm run dev
-3. Open the app
-Visit:
 
+**npm install**
+
+2. Start the development server
+
+**npm run dev**
+
+3. Open the app
+
+Visit:
 http://localhost:3000
+
 Running the Project
 This project should be run in a terminal with Node.js installed.
 
 Recommended:
-Node.js 20+
-npm 10+
+**Node.js 20+**
+**npm 10+**
 
-If you are editing on mobile:
-use Acode for editing files
-use Termux or another proper terminal environment to run the app
+## If you are editing on mobile:
+**use Acode for editing files
+use Termux or another proper terminal environment to run the app**
+
 Content System
 Lesson content is stored in JSON files inside:
 
-data/lessons/
+**data/lessons/**
 
 Each lesson includes:
-slug
+**slug
 title
 tier
 summary
@@ -82,10 +88,10 @@ code example
 code notes
 common mistakes
 exercise
-order
+order**
 
 This makes the project easier to expand later with:
-more lessons
+**more lessons
 more tiers
 more languages
 search and filtering
@@ -107,7 +113,7 @@ improved animated language selector
 deployment setup
 more languages beyond the original 6
 Goal of Coding Hub
-The goal of Coding Hub is to create one free, organized place where beginners can learn many coding languages with clear explanations and helpful, commented examples.
+The goal of Coding Hub is to create one free, organized place where beginners can learn many coding languages with clear explanations and helpful, commented examples.**
 
 ## Project Structure
 
