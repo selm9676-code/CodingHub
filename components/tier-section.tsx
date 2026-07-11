@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { Lesson, TierKey } from "@/types/curriculum";
+import type { Lesson, TierKey } from "../types/curriculum";
 
 interface TierSectionProps {
   languageSlug: string;
