@@ -1,1 +1,80 @@
 
+[
+  {
+    "slug": "java-first-program",
+    "title": "Java first program",
+    "tier": "easy",
+    "summary": "Learn how a basic Java program is structured and how it prints text.",
+    "goal": "By the end of this lesson, you will be able to read and write a very simple Java program that prints text to the console.",
+    "explanation": [
+      "Java programs are usually organized inside classes. A class is a container that holds code.",
+      "The main method is the starting point of the program. When the program runs, Java begins there.",
+      "System.out.println() prints text to the console, similar to print() in Python or console.log() in JavaScript."
+    ],
+    "codeLanguage": "java",
+    "code": "public class Main {
+  public static void main(String[] args) {
+    // Print a welcome message
+    System.out.println(\"Welcome to Coding Hub!\");
+
+    // Print a second line of text
+    System.out.println(\"This is your first Java program.\");
+  }
+}",
+    "codeNotes": [
+      "public class Main creates a class named Main.",
+      "main is the method Java runs first.",
+      "System.out.println() shows text in the console.",
+      "Each line ends with a semicolon because Java expects statements to end clearly."
+    ],
+    "commonMistakes": [
+      "Forgetting a semicolon at the end of a line.",
+      "Using the wrong capitalization in System.out.println().",
+      "Missing a curly brace and breaking the class or method structure."
+    ],
+    "exercise": {
+      "title": "Print your own message",
+      "instructions": "Write a Java program that prints your name on one line and your favorite language on the next line."
+    },
+    "order": 1
+  },
+  {
+    "slug": "java-variables-and-if",
+    "title": "Java variables and if statements",
+    "tier": "easy",
+    "summary": "Learn how Java stores values in variables and checks a simple condition.",
+    "goal": "By the end of this lesson, you will be able to create basic variables and use an if statement in Java.",
+    "explanation": [
+      "A variable stores data that your program can use later. In Java, you often declare the type of data before the variable name.",
+      "For example, int stores whole numbers and String stores text.",
+      "An if statement checks whether a condition is true before running a block of code."
+    ],
+    "codeLanguage": "java",
+    "code": "public class Main {
+  public static void main(String[] args) {
+    String learnerName = \"Nadia\";
+    int completedLessons = 5;
+
+    if (completedLessons >= 3) {
+      System.out.println(learnerName + \" can unlock the next lesson.\");
+    }
+  }
+}",
+    "codeNotes": [
+      "String learnerName stores text.",
+      "int completedLessons stores a whole number.",
+      "The if statement checks whether completedLessons is at least 3.",
+      "The + symbol joins text together in the printed sentence."
+    ],
+    "commonMistakes": [
+      "Using the wrong data type for a value.",
+      "Forgetting parentheses around the if condition.",
+      "Leaving out curly braces around the code block."
+    ],
+    "exercise": {
+      "title": "Check learner access",
+      "instructions": "Create a String variable for a learner name and an int variable for their score. Print a success message only if the score is 70 or higher."
+    },
+    "order": 2
+  }
+]
