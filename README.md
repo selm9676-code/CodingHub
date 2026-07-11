@@ -66,6 +66,7 @@ This project should be run in a terminal with Node.js installed.
 
 Recommended:
 **Node.js 20+**
+
 **npm 10+**
 
 ## If you are editing on mobile:
