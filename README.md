@@ -85,7 +85,7 @@ coding-hub/
 ├─ tailwind.config.ts
 └─ tsconfig.json
 
-# Getting Started
+## Getting Started
 1. Install dependencies
 npm install
 2. Start the development server
