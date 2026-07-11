@@ -1,1 +1,84 @@
+[
+  {
+    "slug": "rust-hello-and-variables",
+    "title": "Rust hello world and variables",
+    "tier": "easy",
+    "summary": "Learn how a simple Rust program prints text and stores values in variables.",
+    "goal": "By the end of this lesson, you will be able to print text in Rust and create simple variables.",
+    "explanation": [
+      "Rust can look more strict than beginner languages, but the first steps are still manageable when taken slowly.",
+      "println! is a Rust macro that prints text to the terminal. It works a bit like print() or console.log().",
+      "let creates a variable. In early Rust, think of it as naming a value so you can use it again later."
+    ],
+    "codeLanguage": "rust",
+    "code": "fn main() {
+    // Print a welcome message
+    println!(\"Welcome to Coding Hub!\");
 
+    // Store a learner name in a variable
+    let learner_name = \"Sora\";
+
+    // Print the variable value inside a message
+    println!(\"{} is learning Rust.\", learner_name);
+}",
+    "codeNotes": [
+      "fn main() is the starting point of the Rust program.",
+      "println! prints a line of text.",
+      "let learner_name creates a variable.",
+      "{} is a placeholder that Rust fills with the value of learner_name."
+    ],
+    "commonMistakes": [
+      "Forgetting the ! in println!.",
+      "Leaving out a semicolon after a statement.",
+      "Using the variable name differently later, such as learnerName instead of learner_name."
+    ],
+    "exercise": {
+      "title": "Introduce a learner in Rust",
+      "instructions": "Create a variable for a learner name and print a sentence that says they are starting Rust on Coding Hub."
+    },
+    "order": 1
+  },
+  {
+    "slug": "rust-mutability-basics",
+    "title": "Rust mutability basics",
+    "tier": "easy",
+    "summary": "Learn the difference between a normal Rust variable and a mutable one.",
+    "goal": "By the end of this lesson, you will understand how Rust protects variables from being changed unless you allow it.",
+    "explanation": [
+      "In Rust, variables are not changeable by default. This is called immutable by default.",
+      "If you want to change a variable later, you add mut after let.",
+      "This rule helps beginners and experienced developers avoid accidental changes in code."
+    ],
+    "codeLanguage": "rust",
+    "code": "fn main() {
+    // This variable can change because it uses mut
+    let mut completed_lessons = 1;
+
+    println!(\"Starting lessons: {}\", completed_lessons);
+
+    // Update the value later
+    completed_lessons = 2;
+
+    println!(\"Updated lessons: {}\", completed_lessons);
+}",
+    "codeNotes": [
+      "let mut completed_lessons creates a variable whose value can change.",
+      "The first println! shows the starting number.",
+      "completed_lessons = 2 updates the stored value.",
+      "The second println! proves the variable changed successfully."
+    ],
+    "commonMistakes": [
+      "Trying to change a variable that was created without mut.",
+      "Forgetting a semicolon at the end of a statement.",
+      "Misspelling the variable name when updating it."
+    ],
+    "exercise": {
+      "title": "Track lesson progress",
+      "instructions": "Create a mutable variable for completed lessons, print the first value, update it, and print the new value."
+    },
+    "order": 2
+  }
+]
+Run it
+npm install
+npm run dev
