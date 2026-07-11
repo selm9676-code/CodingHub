@@ -145,10 +145,4 @@ deployment setup
 more languages beyond the original 6
 Goal of Coding Hub
 The goal of Coding Hub is to create one free, organized place where beginners can learn many coding languages with clear explanations and helpful, commented examples.
-License
-You can change this section later depending on how you want to license the project.
-
-If you want, Coding Hub Project Partner can also make you a second version that is:
-
-1. **more professional / GitHub-style**, or
-2. **more beginner-friendly and project-story style**.
+## License
