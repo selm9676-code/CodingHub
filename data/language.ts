@@ -1,5 +1,4 @@
-import type { LanguageMeta } from "../types
-curriculum";
+import type { LanguageMeta } from "../types curriculum";
 
 export const languages: LanguageMeta[] = [
   {
