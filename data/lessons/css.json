@@ -1,1 +1,78 @@
 
+[
+  {
+    "slug": "css-selectors-and-colors",
+    "title": "CSS selectors and colors",
+    "tier": "easy",
+    "summary": "Learn how CSS targets HTML elements and changes their color.",
+    "goal": "By the end of this lesson, you will be able to style simple HTML elements with CSS selectors and color properties.",
+    "explanation": [
+      "CSS controls how HTML looks. You write rules that target elements and then apply styles to them.",
+      "A selector tells CSS what to style. For example, h1 targets all heading level 1 elements.",
+      "Properties such as color and background-color change how elements appear on the page."
+    ],
+    "codeLanguage": "css",
+    "code": "/* Style all <h1> elements */
+h1 {
+  color: #38bdf8;
+}
+
+/* Style all <p> elements */
+p {
+  color: #cbd5e1;
+  background-color: #0f172a;
+}",
+    "codeNotes": [
+      "h1 and p are selectors. They choose which HTML elements the rule will style.",
+      "color changes the text color.",
+      "background-color changes the color behind the text.",
+      "The braces hold the style rules for the selected element."
+    ],
+    "commonMistakes": [
+      "Forgetting the semicolon after a property value.",
+      "Using a selector that does not match any HTML element on the page.",
+      "Misspelling a property name like background-color."
+    ],
+    "exercise": {
+      "title": "Style a heading and paragraph",
+      "instructions": "Write one CSS rule for h1 and one for p. Change the text color of the heading and the background color of the paragraph."
+    },
+    "order": 1
+  },
+  {
+    "slug": "css-box-model-basics",
+    "title": "CSS box model basics",
+    "tier": "easy",
+    "summary": "Learn how spacing works around elements using padding, border, and margin.",
+    "goal": "By the end of this lesson, you will understand how the CSS box model controls spacing around content.",
+    "explanation": [
+      "Every HTML element behaves like a box. That box includes the content, padding, border, and margin.",
+      "Padding adds space inside the box, between the content and the border.",
+      "Margin adds space outside the box, pushing it away from other elements."
+    ],
+    "codeLanguage": "css",
+    "code": ".card {
+  background-color: #0f172a;
+  color: #e2e8f0;
+  padding: 16px;
+  border: 1px solid #38bdf8;
+  margin-top: 24px;
+}",
+    "codeNotes": [
+      "padding: 16px adds inner space so the text does not touch the edges.",
+      "border draws a visible line around the box.",
+      "margin-top: 24px adds outside space above the element.",
+      "Together, these rules make the element easier to read and visually separate."
+    ],
+    "commonMistakes": [
+      "Mixing up margin and padding.",
+      "Forgetting units like px.",
+      "Adding large spacing values without checking the layout."
+    ],
+    "exercise": {
+      "title": "Build a simple card",
+      "instructions": "Create a .card class that uses a background color, padding, a border, and a top margin. Then apply it to a div in HTML."
+    },
+    "order": 2
+  }
+]
