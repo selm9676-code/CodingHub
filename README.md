@@ -83,9 +83,9 @@ coding-hub/
 ├─ package.json
 ├─ postcss.config.js
 ├─ tailwind.config.ts
-└─ tsconfig.json’’’
+└─ tsconfig.json
 
-Getting Started
+# Getting Started
 1. Install dependencies
 npm install
 2. Start the development server
