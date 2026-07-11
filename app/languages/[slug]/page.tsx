@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
-import { TierSection } from "@/components/tier-section";
-import { getLanguageBySlug, getLessonsForTier, tierMeta } from "@/lib/curriculum";
-import type { TierKey } from "@/types/curriculum";
+import { TierSection } from "../../../components/tier-section";
+import { getLanguageBySlug, getLessonsForTier, tierMeta } from "../../../lib/curriculum";
+import type { TierKey } from "../../../types/curriculum";
 
 interface LanguagePageProps {
   params: {
